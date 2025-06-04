@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(./background_page_2.jpg);
+  background-image: url(./background_page_2_upscayl_3x_realesrgan-x4fast.png);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Manrope';
@@ -48,7 +48,7 @@ section {
   justify-content: center;
 }
 ul {
-  background-color: rgba(0, 0, 0, 0.805);
+  background-color: rgba(0, 0, 0, 0.794);
   margin-top: 1rem;
   border: 1px black solid;
   padding: 1rem;
