@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./background_page_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Manrope';
+  min-width: 350px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & span {
+    color: white;
+    margin-bottom: 1rem;
+  }
+}
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  color: rgb(221, 224, 21);
+  text-align: center;
+}
+h2 {
+  color: blanchedalmond;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  background-color: rgba(0, 0, 0, 0.805);
+  margin-top: 1rem;
+  border: 1px black solid;
+  padding: 1rem;
+  border-radius: 8px;
+  color: whitesmoke;
+  list-style: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    color: bisque;
+  }
+}
+
+li img {
+  width: 45px;
+  height: 45px;
+  margin-right: 1rem;
+}
+.kick_icon {
+  height: 35px;
+}
